@@ -1,0 +1,7 @@
+image:
+  file: /kali-linux-docker/Dockerfile
+  context: /kali-linux-docker
+ports:
+- port: 8089
+tasks:
+- command: sudo ./build
