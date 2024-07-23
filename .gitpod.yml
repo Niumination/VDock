@@ -1,6 +1,6 @@
 image:
   file: /kali-linux-docker/Dockerfile
-  context: /kali-linux-docker
+  context: /zaryu/zaryu
 ports:
 - port: 8089
 tasks:
